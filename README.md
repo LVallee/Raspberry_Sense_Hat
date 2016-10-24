@@ -1,14 +1,6 @@
-import urllib2
-import json
-import os
-import glob
-import time
-from ISStreamer.Streamer import Streamer
-
-# --------- User Settings ---------
-STATE = "CA"
-CITY = "San_Francisco"
-WUNDERGROUND_API_KEY = "PLACE YOUR WUNDERGROUND API KEY HERE"
+STATE = "Canada"
+CITY = "Gatineau"
+WUNDERGROUND_API_KEY = "2b14fd12a1bdb39a"
 BUCKET_NAME = ":partly_sunny: " + CITY + " Weather"
 BUCKET_KEY = "wu1"
 ACCESS_KEY = "PLACE YOUR INITIAL STATE ACCESS KEY HERE"
